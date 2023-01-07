@@ -1,0 +1,46 @@
+Date : 2022-07-21 11:20:46
+Directory : c:\Users\mithu\Documents\Projects\eclipse-workspace\ShadowHunt\core\src
+Total : 14 files,  -485 codes, 0 comments, -28 blanks, all -513 lines
+
+Languages
++----------+------------+------------+------------+------------+------------+
+| language | files      | code       | comment    | blank      | total      |
++----------+------------+------------+------------+------------+------------+
+| Groovy   |          1 |         -5 |          0 |         -2 |         -7 |
+| Markdown |          4 |       -235 |          0 |        -26 |       -261 |
+| JSON     |          9 |       -245 |          0 |          0 |       -245 |
++----------+------------+------------+------------+------------+------------+
+
+Directories
++------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                                   | files      | code       | comment    | blank      | total      |
++------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                                      |         14 |       -485 |          0 |        -28 |       -513 |
+| ..                                                                                                                     |         14 |       -485 |          0 |        -28 |       -513 |
+| ..\.VSCodeCounter                                                                                                      |          5 |       -236 |          0 |        -26 |       -262 |
+| ..\.VSCodeCounter\2022-06-23_18-06-42                                                                                  |          5 |       -236 |          0 |        -26 |       -262 |
+| ..\assets                                                                                                              |          3 |       -124 |          0 |          0 |       -124 |
+| ..\assets\config                                                                                                       |          3 |       -124 |          0 |          0 |       -124 |
+| ..\config                                                                                                              |          4 |       -119 |          0 |          0 |       -119 |
++------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++------------------------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| filename                                                                                                               | language | code       | comment    | blank      | total      |
++------------------------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| c:\Users\mithu\Documents\Projects\eclipse-workspace\ShadowHunt\core\.VSCodeCounter\2022-06-23_18-06-42\details.md      | Markdown |       -163 |          0 |         -6 |       -169 |
+| c:\Users\mithu\Documents\Projects\eclipse-workspace\ShadowHunt\core\.VSCodeCounter\2022-06-23_18-06-42\diff-details.md | Markdown |         -9 |          0 |         -6 |        -15 |
+| c:\Users\mithu\Documents\Projects\eclipse-workspace\ShadowHunt\core\.VSCodeCounter\2022-06-23_18-06-42\diff.md         | Markdown |        -12 |          0 |         -7 |        -19 |
+| c:\Users\mithu\Documents\Projects\eclipse-workspace\ShadowHunt\core\.VSCodeCounter\2022-06-23_18-06-42\results.json    | JSON     |         -1 |          0 |          0 |         -1 |
+| c:\Users\mithu\Documents\Projects\eclipse-workspace\ShadowHunt\core\.VSCodeCounter\2022-06-23_18-06-42\results.md      | Markdown |        -51 |          0 |         -7 |        -58 |
+| c:\Users\mithu\Documents\Projects\eclipse-workspace\ShadowHunt\core\assets\config\resource.json                        | JSON     |        -51 |          0 |          0 |        -51 |
+| c:\Users\mithu\Documents\Projects\eclipse-workspace\ShadowHunt\core\assets\config\sprite.json                          | JSON     |        -49 |          0 |          0 |        -49 |
+| c:\Users\mithu\Documents\Projects\eclipse-workspace\ShadowHunt\core\assets\config\weapons.json                         | JSON     |        -24 |          0 |          0 |        -24 |
+| c:\Users\mithu\Documents\Projects\eclipse-workspace\ShadowHunt\core\build.gradle                                       | Groovy   |         -5 |          0 |         -2 |         -7 |
+| c:\Users\mithu\Documents\Projects\eclipse-workspace\ShadowHunt\core\config\app.json                                    | JSON     |        -12 |          0 |          0 |        -12 |
+| c:\Users\mithu\Documents\Projects\eclipse-workspace\ShadowHunt\core\config\resource.json                               | JSON     |        -37 |          0 |          0 |        -37 |
+| c:\Users\mithu\Documents\Projects\eclipse-workspace\ShadowHunt\core\config\sprite.json                                 | JSON     |        -46 |          0 |          0 |        -46 |
+| c:\Users\mithu\Documents\Projects\eclipse-workspace\ShadowHunt\core\config\weapons.json                                | JSON     |        -24 |          0 |          0 |        -24 |
+| c:\Users\mithu\Documents\Projects\eclipse-workspace\ShadowHunt\core\level.json                                         | JSON     |         -1 |          0 |          0 |         -1 |
+| Total                                                                                                                  |          |       -485 |          0 |        -28 |       -513 |
++------------------------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+

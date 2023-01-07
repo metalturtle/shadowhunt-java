@@ -1,0 +1,72 @@
+1)the game consist of black and white areas, the players are visible only in the white area
+2)there should be a seperate render class:
+	i)in constructor, set the resolution value
+	ii)create init function, create all objects there
+3)the game screen should be more wide, and stretch across the entire screen. The aspect ratio should be suitable for mobile
+	1)get aspect ratio from mobile
+	2)set the resolution to that aspect ratio
+	3)the camera should also be centered according to the aspect ratio
+	4)minimizing or maximizing the screen should not change the aspect ratio
+4)set the camera center point, according to the aspect ratio:
+	according to the camera width and height, the camera x and y should be set.
+5)make the gun into a sniper
+6)research on how to create server in the internet
+7)Research into procedural map building
+	i)use random walk algorithm, and create a boolean array
+	ii)according to the boolean array, use map generation function, from the world builder algorithm
+	iii)go to youtube, and find the correct method for world builder algorithm
+	iv)create a sepearate project, for the world generation, and test the algorithm
+	v)merge the world generation, and the world builder
+	vi)gamehandler will generate the map
+	---
+	1)create a new project
+	2)use swing,create a boolean array, then create a cell grid in the screen
+	3)implement the random walk algorithm from the freecodecamp website
+	4)then display the boolean array
+	----
+	RANDOM WALK
+	1)get random cell in the map
+	Wall Generator:
+	cell has 4 sides
+	check if each side is facing a side that is false
+	if it is, then add a line
+	INTEGRATION:
+	Add a file MapGenerator
+	add the boolean array, and the algorithm for wall generation and edge generation
+	modify the above functions, to add the walls to the world object
+	modify gamehandler, to use the random map generator
+	also in gamehandler, set the default spawn position in actorhandler, to the start pos of the map generator
+	REMAINING ITEMS:
+	TEXTURE
+	LIGHT PLACEMENT:
+	modify lighthandler:
+		1)check if light bound crosses with screen window
+		2)if the lights in the scene is more than 8, then break
+		3)shift map generator to gameflowhandler,(for now, shift it to testmain)
+			gameflowhandler has access to renderhandler
+			inside gameflowhandler,generate the map
+			add a new function to mapgenerator, to set random placements of lights. call light add function from lighthandler
+		3)multiple passes: if lights are more than 8, then render 8 lights, then go for next remaining lights
+			in lightFBO, first render the lights, then render the existing LightTexture
+	
+	TEXTURE:
+	find an empty cell, a cell which doesnt belong to any rectangle.
+		if it belongs, then iterate the iterating variable according to the width of the rectangle
+	
+	 iterate horizontally, and vertically to check if it hits walls, then change maxwidth and maxheight
+	 form a rectangle that has start pos, maxwidth and maxheight, and add it to the array
+	 skip the horizontal iterating variable, by the width of the rectangle
+	 
+	 13-Mar:
+	 Modify rendlight function from lighthandler, to deal with any number of lights:
+		make light occluder to empty
+		make a loop for all lights present in a scene
+			another loop to calculate the lights from the scene
+				make a change such that only 8 lights in a scene get rendered at the same time
+				if number of lights are more then 8, then break
+			draw the lights to the light occluder
+	 Make the light dark areas slightly visible
+	 make another shader, that takes in the sprites, and the light texture
+		if the sprite falls into the dark areas, then make it invisible
+		do some research into this, by looking into the bumpmap shader
+porting the game to android

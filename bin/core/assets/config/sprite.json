@@ -1,0 +1,49 @@
+{
+	"sprite":{
+		"folder":"levels",
+		"pickup_health":"health.png",
+		"pickup_gun":"gun.png",
+		"gun_tracer":"beammid1.png",
+		"rect": "red.png",
+		"blade": "blade.png",
+		"rect2": "whitetile2.png",
+	},
+	"animated_sprite":{
+		"folder":"levels\\playeranims",
+		"actor_legs":{"file":"sprNickeLegs.png","row":4,"col":4,"speed":0.06},
+		"actor_torso_walk_machgun":{"file":"sprNickeWalkMachinegun.png","row":2,"col":4},
+		"actor_torso_attack_machgun":{"file":"sprNickeAttackMachinegun.png","row":3,"col":1},
+		"actor_torso_walk_heavy":{"file":"sprNickeWalkHeavy.png"},
+		"actor_torso_attack_heavy":{"file":"sprNickeAttackHeavy.png","row":4,"col":2},
+		"actor_dead":{"file":"sprNickeDeadCut.png","col":3,"row":1},
+		"actor_stealth_standing":{"file":"default2.png","col":1,"row":1},
+		"actor_torso_attack_melee": {"file":"hitting.png", "col": 2, "row":1},
+		"actor_torso_standing": {"file":"standing.png","col":1,"row":1},
+	},
+	"animated_sprite_set":{
+		"actor":{
+			"count":2,
+			"default":{
+				"actor_legs":{},
+				"actor_torso_standing":{},
+			},
+			"melee_hit": {
+				"actor_legs":{},
+				"actor_torso_attack_melee":{},
+			},
+			"dead":{
+				"actor_dead":{"bound":[-60,-60,120,120]},
+			}
+		},
+		"stealth_actor":{
+			"count":2,
+			"default":{
+				"actor_legs":{},
+				"actor_stealth_standing":{},
+			},
+			"dead":{
+				"actor_dead":{"bound":[-60,-60,120,120]},
+			}
+		}
+	}
+}

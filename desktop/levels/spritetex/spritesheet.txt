@@ -1,0 +1,103 @@
+spritesheet.png
+size: 225, 385
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+default
+  rotate: false
+  xy: 15, 0
+  size: 45, 33
+  orig: 45, 33
+  offset: 0, 0
+  index: -1
+default2
+  rotate: false
+  xy: 60, 0
+  size: 45, 33
+  orig: 45, 33
+  offset: 0, 0
+  index: -1
+hitting
+  rotate: false
+  xy: 105, 0
+  size: 90, 33
+  orig: 90, 33
+  offset: 0, 0
+  index: -1
+sprNickeAttackHeavy
+  rotate: false
+  xy: 45, 33
+  size: 44, 64
+  orig: 44, 64
+  offset: 0, 0
+  index: -1
+sprNickeAttackMachinegun
+  rotate: false
+  xy: 180, 161
+  size: 45, 96
+  orig: 45, 96
+  offset: 0, 0
+  index: -1
+sprNickeAttackMachinegun1
+  rotate: false
+  xy: 89, 33
+  size: 45, 64
+  orig: 45, 64
+  offset: 0, 0
+  index: -1
+sprNickeDeadCut
+  rotate: false
+  xy: 0, 97
+  size: 192, 64
+  orig: 192, 64
+  offset: 0, 0
+  index: -1
+sprNickeLegs - Copy
+  rotate: false
+  xy: 0, 257
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+sprNickeLegs
+  rotate: false
+  xy: 0, 257
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+sprNickeWalkHeavy
+  rotate: false
+  xy: 128, 257
+  size: 88, 128
+  orig: 88, 128
+  offset: 0, 0
+  index: -1
+sprNickeWalkMachinegun - Copy
+  rotate: false
+  xy: 0, 161
+  size: 180, 64
+  orig: 180, 64
+  offset: 0, 0
+  index: -1
+sprNickeWalkMachinegun
+  rotate: false
+  xy: 0, 161
+  size: 180, 64
+  orig: 180, 64
+  offset: 0, 0
+  index: -1
+standing
+  rotate: false
+  xy: 0, 33
+  size: 45, 33
+  orig: 45, 33
+  offset: 0, 0
+  index: -1
+stealth_standing
+  rotate: false
+  xy: 0, 0
+  size: 15, 26
+  orig: 15, 26
+  offset: 0, 0
+  index: -1
